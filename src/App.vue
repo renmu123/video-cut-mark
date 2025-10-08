@@ -4,9 +4,9 @@ import { ref } from "vue";
 
 const modalRef = ref<InstanceType<typeof ModalInput>>();
 
-const openModal = () => {
-  modalRef.value?.openModal();
-};
+// const openModal = () => {
+//   modalRef.value?.openModal();
+// };
 </script>
 
 <template>

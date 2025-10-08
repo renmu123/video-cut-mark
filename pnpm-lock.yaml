@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      uuid:
+        specifier: ^13.0.0
+        version: 13.0.0
       vue:
         specifier: ^3.5.19
         version: 3.5.22(typescript@5.9.2)
@@ -590,6 +593,10 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
+    hasBin: true
+
   vite-plugin-monkey@7.1.4:
     resolution: {integrity: sha512-nA/uWbLT3b0uyCFBV7bsIUn+OZCpPzymDX1Nx9btKrG7in06m0txbT2SipCZPZJZyyQHPFNLrCSrWsQIFDHDlg==}
     peerDependencies:
@@ -1144,6 +1151,8 @@ snapshots:
       picomatch: 4.0.3
 
   typescript@5.9.2: {}
+
+  uuid@13.0.0: {}
 
   vite-plugin-monkey@7.1.4(postcss@8.5.6)(vite@7.1.7):
     dependencies:

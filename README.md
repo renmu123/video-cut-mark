@@ -1,11 +1,27 @@
-# Vue 3 + TypeScript + Vite
+# 直播切片路灯工具
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+一个快捷的直播路灯记录工具，目标支持平台：B 站、虎牙、斗鱼、抖音，支持与 [biliLive-tools](https://github.com/renmu123/biliLive-tools) 切片功能联动，实现一键切片。
 
-## Recommended IDE Setup
+# 安装
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# 开发
 
-## Type Support For `.vue` Imports in TS
+## 安装依赖
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+`pnpm install`
+
+## 开发
+
+`pnpm run dev`
+
+# TODO
+
+- [ ] B 站支持
+- [ ] 虎牙支持
+- [ ] 斗鱼支持
+- [ ] 抖音支持
+- [ ] 服务器支持
+
+# 协议
+
+MIT
